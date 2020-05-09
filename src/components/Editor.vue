@@ -2,10 +2,10 @@
   <div class="editor">
     <div id="downloadImage" ref="downloadImage" :idCanvas="idCanvas">
       <img :src="imgToEdit" :alt="`Image to edit`" :parent="true" id="img" />
-      <vue-draggable-resizable :w="60" :h="60" @dragging="onDrag" @resizing="onResize">
+      <vue-draggable-resizable :w="60" :h="60"  @resizing="onResize">
         <p id="meme-text">{{topText}}</p>
       </vue-draggable-resizable>
-      <vue-draggable-resizable :w="60" :h="60" @dragging="onDrag" @resizing="onResize">
+      <vue-draggable-resizable :w="60" :h="60" @resizing="onResize">
         <p id="meme-text">{{bottomText}}</p>
       </vue-draggable-resizable>
     </div>
@@ -45,11 +45,7 @@ export default {
       bottomText: "",
       width: 0,
       heigth: 0,
-      x: 0,
-      y: 0,
       idCanvas: "image",
-      selectedColor: null,
-      selectedFont: null
     };
   },
   methods: {
