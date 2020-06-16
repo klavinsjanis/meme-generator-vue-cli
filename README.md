@@ -1,4 +1,12 @@
+
 # meme-generator
+Simple, fun app for generating your memes.
+
+## Video presentation
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/Ti6KdtKuPTU/0.jpg)]
+(https://youtu.be/Ti6KdtKuPTU)
+
 
 ## Project setup
 ```
